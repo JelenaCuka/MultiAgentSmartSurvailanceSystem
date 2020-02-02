@@ -5,6 +5,7 @@ MultiAgentSmartSurvailanceSystem
 
 -file FBToken is not uploaded
 -and also videos are not uploaded (bcz size)
+-used models are not uploaded
 -also several dependencies need to be installed to use system (spade, tensorflow, opencv, facebook-sdk)
 
 
