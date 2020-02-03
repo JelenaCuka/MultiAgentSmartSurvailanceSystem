@@ -3,7 +3,7 @@ MultiAgentSmartSurvailanceSystem
 ------------------------------------------------------------------------------------------------------------------------------
 
 This system includes agents who track and detect objects (people,person) on camera/video input. 
-After detection they also count number of detected objects and in defined time intervals they send count info to ListenerAgent. 
+After detection they also count number of detected objects and in defined time intervals they send average count info to ListenerAgent. 
 ListenerAgents listens messages from all SpectatorAgents in System. In defined time intervals Agent Formats message and posts message to Facebook page. Content of message is result of total number of detected objects in system (sum of information from all agents in system).
 
 ------------------------------------------------------------------------------------------------------------------------------
